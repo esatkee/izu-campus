@@ -1,0 +1,2 @@
+/Users/esatkuce/Downloads/izu-mobil-main/android/app/.cxx/Debug/222a6c2l/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/esatkuce/Downloads/izu-mobil-main/android/app/.cxx/Debug/222a6c2l/armeabi-v7a/CMakeFiles/rebuild_cache.dir
