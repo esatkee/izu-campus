@@ -1,16 +1,33 @@
-# izukbs
+# İZÜ Campus App
 
-izü kampüs bilgi sisteminin mobil versiyonu.
+A student-built Flutter application for campus information workflows. It includes screens for student records, courses, timetables, attendance, exam results and transcripts.
 
-## Getting Started
+## Screens and components
 
-This project is a starting point for a Flutter application.
+- Student information and course details.
+- Course and exam schedules, results and attendance views.
+- Transcript view and a transcript calculation widget.
+- Course materials, application forms and emergency contact information.
+- HTTP service methods for course and student data.
 
-A few resources to get you started if this is your first Flutter project:
+## Getting started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Use Flutter with Dart `^3.6.1` or a compatible version.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
+
+Review `lib/services/api_service.dart` and configure an available backend before testing the API-backed screens. The backend is not included in this repository; some screens may use example data. This repository does not establish official university affiliation or production availability.
+
+## Code structure
+
+- `lib/screens/` — campus information screens.
+- `lib/services/` — HTTP requests and URL launching.
+- `lib/widgets/` — shared app bar and transcript calculator.
+- `lib/main.dart` — application entry point.
+
+## Türkçe
+
+İZÜ kampüs bilgi sistemi için geliştirilmiş bir öğrenci projesidir. Ders programı, sınav sonuçları, devamsızlık ve transkript gibi ekranları Flutter ile sunar. Ders ve öğrenci verileri için HTTP servis katmanı içerir.
